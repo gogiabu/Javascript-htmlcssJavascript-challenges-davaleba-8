@@ -1,0 +1,124 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url(font/PlusJakartaSans-Regular.ttf);
+}
+.container-fluid{
+    background-color: #1A1A1A;
+}
+.calculator{
+    padding: 10px 24px 10px 24px;
+    background-color: black;
+}
+.title{
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px; 
+    color: #ffffff;
+}
+#display{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 240px;
+    border-radius: 4px 0px 0px 0px;
+    font-size: 28px;
+    text-align: end;
+    padding-top: 180px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 900;
+    line-height: 151.2px;
+    color: #ffffff;
+    background-color: black;
+    border: none; 
+}
+#display::placeholder{
+    color: #ffffff;
+}
+.buttonarea{
+    height: 456px;
+    border: 1px solid gray;
+}
+.buttonc{
+    width: 264px;
+    height: 72px;
+    border-radius: 999px;
+    margin-right: 19px;
+    margin-bottom: 24px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    color: black;
+    background-color:  #FF9800;
+    cursor: pointer;
+}
+.button1{
+    border-radius: 999px;
+    margin-right: 19px;
+    margin-bottom: 24px;
+    width: 72px;
+    height: 72px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    color: black;
+    background-color:  #FF9800;
+    cursor: pointer;
+}
+.button2{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    margin-right: 19px;
+    margin-bottom: 24px;
+    width: 72px;
+    height: 72px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #d99836;
+}
+.button2:hover{
+    background-color: rgb(153, 148, 148);
+}
+.buttonc:hover{
+    background-color: #ff9900ce;
+}
+
+@media screen and (max-width: 768px) {
+    #display{
+
+        height: 140px !important;
+        padding-top: 60px !important;
+        font-size: 16px !important;
+        
+    }
+    .buttonc{
+        width: 155px !important;
+        height: 36px !important;
+        font-size: 18px !important;
+    }
+    .button1{
+        width: 36px !important;
+        height: 36px !important;
+        font-size: 18px !important;
+    }
+    .button2{
+        width: 36px !important;
+        height: 36px !important;
+        font-size: 18px !important;
+    }
+  }
